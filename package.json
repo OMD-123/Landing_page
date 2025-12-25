@@ -1,0 +1,17 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "A minimal, static report page that shows: - Overall score out of 9 - Skill-wise scores (Pronunciation, Fluency, Vocabulary, Grammar) - Progress bars for each - Auto-updating descriptive feedback based on score ranges",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

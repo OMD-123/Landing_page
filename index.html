@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Speaking Assessment Report</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <header class="card-header">
+                <h1>Speaking Assessment Report</h1>
+                <p id="studentName" class="muted"></p>
+            </header>
+
+            <section aria-labelledby="summaryTitle">
+                <h2 id="summaryTitle">Summary of Scores</h2>
+                <div class="overall">
+                    <div>
+                        <span class="label">Overall Score</span>
+                        <div class="overall-score">
+                            <span id="overallValue"></span>
+                            <span class="out-of">/ 9</span>
+                        </div>
+                        <div class="progress">
+                            <div id="overallBar" class="progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills" id="skills"></div>
+            </section>
+
+            <section aria-labelledby="feedbackTitle" class="feedback-section">
+                <h2 id="feedbackTitle">Descriptive Feedback</h2>
+                <div class="feedback-grid">
+                    <div class="feedback-card">
+                        <h3>Overall</h3>
+                        <p id="feedbackOverall"></p>
+                    </div>
+                    <div class="feedback-card">
+                        <h3>Skills</h3>
+                        <ul id="skillFeedback"></ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
